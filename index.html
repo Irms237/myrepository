@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial Pembelian</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(to bottom right, #4e54c8, #8f94fb);
+            color: #fff;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 90%;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .container h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            text-align: center;
+            border-bottom: 2px solid #fff;
+            padding-bottom: 10px;
+        }
+
+        .steps {
+            list-style: none;
+            padding: 0;
+        }
+
+        .steps li {
+            margin: 10px 0;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border-left: 5px solid #8f94fb;
+            border-radius: 10px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .steps li span {
+            font-weight: bold;
+            margin-right: 10px;
+            color: #ffdd57;
+        }
+
+        .steps li:nth-child(odd) {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+
+            .container h1 {
+                font-size: 1.5rem;
+            }
+
+            .steps li {
+                font-size: 0.9rem;
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🗡 Cara Pembelian</h1>
+        <ul class="steps">
+            <li><span>1.</span> Pastikan Product Tersedia</li>
+            <li><span>2.</span> Beli Dengan Mengetik <code>.buy &lt;kodeproduk&gt; &lt;jumlah&gt;</code></li>
+            <li><span>3.</span> Contoh: [.buy mcantiddos 1] Tanpa Tanda Kurung</li>
+            <li><span>4.</span> Lakukan Pembayaran Dengan QRIS</li>
+            <li><span>5.</span> Lanjutkan Langkah Detail Seperti OS Yang Dipilih Dll</li>
+            <li><span>6.</span> Transaksi Diproses Oleh Bot</li>
+            <li><span>7.</span> Transaksi Selesai</li>
+            <li><span>8.</span> Bingung? Dm Admin wa.me/6285176708678</li>
+        </ul>
+    </div>
+</body>
+</html>
